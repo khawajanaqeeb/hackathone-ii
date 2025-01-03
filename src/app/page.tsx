@@ -1,17 +1,16 @@
 
 
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+
 
 export default function Home() {
   return (
-    <div className="w-[1440px] h-[4835px]  bg-white border-2">
-      <Header />
+    <div className="w-[1440px] h-[4500px]  bg-white ">
+      
       <div className="w-[1440px] h-[812.53px] border-2">
         <div className="bg-[url('/bit.jpg')] bg-cover bg-center  w-[1440px] h-[1007.93px]  border-2 ">
           <div className="w-[1440px] h-[716.83px] border-2  ">
             <div className="w-[643px] h-[443px] mt-[20%] ml-[739px] rounded-[10px] bg-[#FFF3E3] border-2">
-              <h2 className="w-[123px] h-[24px] mt-[10%] ml-[15%] text-[#333333] ">New Arrival</h2>
+              <h2 className="w-[123px] h-[24px] mt-[10%] ml-[15%] text-[#333333]  font-medium text-base ">New Arrival</h2>
               <h2 className="w-[400px] h-[127px] ml-[15%] text-[52px] font-bold text-[#B88E2F]">Discover Our New Collection</h2>
               <p className="text-[#333333] font-medium text-lg w-[500px] h-[52px] mt-[10%] ml-[15%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
               <button className="text-[#FFFFFF] bg-[#B88E2F] w-[222px] h-[74px] mt-[2%] ml-[15%] pt-[25px] pr-[72px] pb-[25px] pl-[72px]">BUY Now</button>
@@ -46,7 +45,7 @@ export default function Home() {
                       <img src="/potty.png" alt="repira" className="w-[284px] h-[446px]" />
                     </div>
                     <button className="bg-[#FFFFFF] w-[245px] h-[45px] mt-[2%] ml-[40%] text-[#B88E2F] font-semibold text-base border-[1px] border-[#B88E2F] ">Show More</button>
-                    <div className="flex bg-[#FCF8F3] mt-[5%] w-[1440px] h-[670px]">
+                    <div className="flex bg-[#FCF8F3] ml-[-5%] mt-[5%] w-[1440px] h-[670px]">
                       <div className="ml-[5%]">
                       <h2 className="w-[422px] h-[96px] text-[40px] font-bold text-[#3A3A3A] mt-[45%]">50+ Beautiful rooms inspiration</h2>
                       <p className="w-[368px] h-[48px]  mt-[5%] text-[#616161] text-base font-medium">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
@@ -67,8 +66,8 @@ export default function Home() {
                       </div>
                       
                     </div>
-                        <div className="w-[1650px] h-[1000px] ml-[-196px] mt-[7%] border-2 ">
-                          <p className="w-[222px] h-[30px] font-semibold text-xl text-[#616161] ml-[50%]">Share your setup with</p>
+                        <div className="w-[1650px] h-[1000px] ml-[-196px] mt-[7%]  ">
+                          <p className="w-[230px] h-[30px] font-semibold text-xl text-[#616161] ml-[50%]">Share your setup with</p>
                           <h2 className="w-[356px] h-[48px] font-bold text-5xl text-[#3A3A3A] ml-[45%]">#FuniroFurniture</h2>
                             <div>
                               <div className="flex">
@@ -98,12 +97,12 @@ export default function Home() {
                         
                   </div>
           </div>
-          <Footer />
+          
         </div>
       
       </div>
       
     
-    </div>
+     </div>
   );
 }

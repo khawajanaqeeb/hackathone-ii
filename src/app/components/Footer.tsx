@@ -1,8 +1,8 @@
 export default function Footer() {
     return (
-      <div className="w-[1440px] h-[505px] mt-[4000px] border-2">
-        <div className="w-[1240px] h-[419px] pt-[48px] ml-[100px] bg-[#FFFFFF]  ">
-          <div className="flex justify-evenly">
+      <div className=" h-[505px]  ">
+        <div className="w-[1240px] h-[419px]  ml-[1%] bg-[#FFFFFF]  ">
+          <div className="flex justify-between">
             <div>
             <h2 className="w-[85px] h-[36px] mt-[48px] ml-[100px]  font-[700] text-2xl ">
               Funiro.
@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
           </div>
           <div className="w-[1240.01px] h-[59px] ml-[100px]"> 
-            <p className="w-[239px] h-[24px] ml-[159.02px] pt-8">2023 furino. All rights reverved</p>
+            <p className="w-[239px] h-[24px] ml-[1%] pt-8">2023 furino. All rights reverved</p>
         </div>
       </div>
     );

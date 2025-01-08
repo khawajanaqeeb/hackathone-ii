@@ -5,11 +5,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer"
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Poppins } from "next/font/google";
-import {Montserrat} from "next/font/google";
-
 
 const poppins= Poppins ({subsets:["latin"], weight:["400","700"]});
-const montserrat= Montserrat ({subsets:["latin"], weight:["400","700"]});
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className} >
-        <Header font={poppins}/>
+        <Header />
         {children}
         <Footer/>
       </body>

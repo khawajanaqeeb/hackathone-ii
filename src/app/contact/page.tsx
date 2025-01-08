@@ -6,7 +6,7 @@ export default function Contact() {
     <>
         <div className=" h-[316px] w-[1440px] ">
             <Image src="/shop1.png" alt="background-shop" width={1440} height={316}/>
-            <img src="/mh.png" className="w-[50px] h-[41px] mt-[-15%] ml-[50%]" />
+            <Image src="/mh.png"  alt="image-1" width={50} height={41} className="w-[50px] h-[41px] mt-[-15%] ml-[50%]" />
             <h2 className="w-[196px] h-[72px]  text-[#000000] font-medium text-5xl mt-[0.5%] ml-[45%]">Contact</h2>
             <h3 className="w-[48px] h-[24px] text-black ml-[47%] ">Home</h3>
             <Image src="/arw.png" alt="arrow"height={20} width={20} className="ml-[51%] mt-[-1.4%] "/>

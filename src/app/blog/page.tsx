@@ -5,7 +5,7 @@ export default function Blog(){
     <>
       <div className=" h[316px] w-[1440px] ">
         <Image src="/shop1.png" alt="background-shop" width={1440} height={316} />
-        <img src="/mh.png" className="w-[50px] h-[41px] mt-[-15%] ml-[45%]" />
+        <Image src="/mh.png" alt="back" width={50} height={41} className="w-[50px] h-[41px] mt-[-15%] ml-[45%]" />
         <h2 className="w-[124px] h-[72px]  text-[#000000] font-medium text-5xl mt-[1%] ml-[43%]">
           Blog
         </h2>

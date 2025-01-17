@@ -2,16 +2,23 @@ import Image from "next/image"
 
 export default function Shop(){
     return(
-        <div className="w-[1440px] h-[3474px] mt-[-724px] ml-[-126px] bg-[#FFFFFF] border-2">
-             <div className="w-[1440px] h[316px] mt-[50%] ">
-                <Image src="/shop1.png" alt="background-shop" width="1440" height="316"/>
+        <div className="w-full h-[3474px] mt-[-724px] ml-[-126px] bg-[#FFFFFF] border-2">
+            {/* <div className="h-auto w-full md:w-[400] md:h-[]">
+
+            </div> */}
+            <div className="grid grid-cols-1 md:grid-cols-4">
+
+            </div>
+             <div className="w-full h[316px] mt-[50%] ">
+                <Image src="/shop1.png" alt="background-shop" width={0} height={0} className="w-full h-auto"
+        sizes="100vw"   />
                 <h2 className="w-[124px] h-[72px]  text-[#000000] font-medium text-5xl mt-[-13%] ml-[50%]">Shop</h2>
                 <h3 className="w-[48px] h-[24px] text-black ml-[50%] mt-[-1%]">Home</h3>
                 <Image src="/arw.png" alt="arrow" height={20} width={20} className="ml-[54%] mt-[-1.5%]"/>
                 <h3 className="w-[41px] h-[24px] ml-[56%] font-light text-base mt-[-1.5%]">Shop</h3>
                 </div> 
                 
-                <div className=" w-[1440px] h-[100px] bg-[#F9F1E7] mt-[7%] border-2 ">
+                <div className=" w-full h-[100px] bg-[#F9F1E7] mt-[7%] border-2 ">
                  <Image src="/sys.png" alt="arrow" height={25} width={25} className="ml-[12%] mt-[35px]"/>
                 <h3 className="w-[48px] h-[30px] ml-[15%] mt-[-23px] font-normal text-xl ">Filter</h3>
                 <Image src="/grid.png" alt="arrow" height={28} width={28} className="ml-[20%] mt-[-30px]"/>

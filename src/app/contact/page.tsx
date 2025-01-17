@@ -4,8 +4,9 @@ import Image from "next/image";
 export default function Contact() {
   return (
     <>
-        <div className=" h-[316px] w-[1440px] ">
-            <Image src="/shop1.png" alt="background-shop" width={1440} height={316}/>
+        <div className=" h-[316px] w-full ">
+            <Image src="/shop1.png" alt="background-shop" width={0} height={0} className="w-full h-auto"
+        sizes="100vw"/>
             <Image src="/mh.png"  alt="image-1" width={50} height={41} className="w-[50px] h-[41px] mt-[-15%] ml-[50%]" />
             <h2 className="w-[196px] h-[72px]  text-[#000000] font-medium text-5xl mt-[0.5%] ml-[45%]">Contact</h2>
             <h3 className="w-[48px] h-[24px] text-black ml-[47%] ">Home</h3>
@@ -13,7 +14,7 @@ export default function Contact() {
             <h3 className="w-[41px] h-[24px]  ml-[53%] mt-[-1.5%] font-light text-base ">Contact</h3>
         </div>
         
-        <div className="w-[1440px] h-[1144px]">   
+        <div className="w-full h-[1144px]">   
              <h1 className="w-[378px] h-[54px] mt-[10%] ml-[38%]  text-4xl font-semibold">Get In Touch With Us</h1>
              <p className="w-[644px] h-[48px] ml-[28%] text-[#9F9F9F] text-base font-normal text-center">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
         
@@ -79,7 +80,7 @@ export default function Contact() {
             </div>
            
         </div>
-        <div className="h-[270px] w-[1440px] bg-[#FAF3EA] flex justify-around items-center">
+        <div className="h-[270px] w-full bg-[#FAF3EA] flex justify-around items-center">
                             <div className=" flex">
                                 <Image src="/g1.png" alt="cup" width={60} height={60}/>
                                 <div className="ml-[2%]">

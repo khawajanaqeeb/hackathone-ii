@@ -4,11 +4,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-[1440px] h-[4500px]  bg-white ">
-      
-      <div className="w-[1440px] h-[812.53px] border-2">
-        <div className="bg-[url('/bit.jpg')] bg-cover bg-center  w-[1440px] h-[1007.93px]  border-2 ">
-          <div className="w-[1440px] h-[716.83px] border-2  ">
+    <div className="w-full h-[4500px] sm:w-1/2 md:w-full bg-white ">
+      {/* tenp */}
+      {/* <div className="w-full h-auto md:w-[400px] lg:w-[600px] md:h-[400px]">
+
+      </div> */}
+      <div className="w-full h-[812.53px] sm:w-1/2 md:w-full border-2">
+        <div className="bg-[url('/bit.jpg')] bg-cover bg-center  w-full sm:w-1/2 md:w-full h-[1007.93px]  border-2 ">
+          <div className="w-full sm:w-1/2 md:w-full h-[716.83px] border-2  ">
             <div className="w-[643px] h-[443px] mt-[20%] ml-[739px] rounded-[10px] bg-[#FFF3E3] border-2">
               <h2 className="w-[123px] h-[24px] mt-[10%] ml-[15%] text-[#333333]  font-medium text-base ">New Arrival</h2>
               <h2 className="w-[400px] h-[127px] ml-[15%] text-[52px] font-bold text-[#B88E2F]">Discover Our New Collection</h2>
@@ -45,13 +48,13 @@ export default function Home() {
                       <Image src="/potty.png" alt="repira" width={284}  height={446} className="w-[284px] h-[446px]" />
                     </div>
                     <button className="bg-[#FFFFFF] w-[245px] h-[45px] mt-[2%] ml-[40%] text-[#B88E2F] font-semibold text-base border-[1px] border-[#B88E2F] ">Show More</button>
-                    <div className="flex bg-[#FCF8F3] ml-[-5%] mt-[5%] w-[1440px] h-[670px]">
+                    <div className="flex bg-[#FCF8F3] ml-[-5%] mt-[5%] w-full h-[670px]">
                       <div className="ml-[5%]">
                       <h2 className="w-[422px] h-[96px] text-[40px] font-bold text-[#3A3A3A] mt-[45%]">50+ Beautiful rooms inspiration</h2>
                       <p className="w-[368px] h-[48px]  mt-[5%] text-[#616161] text-base font-medium">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
                       <button className="w-[176px] h-[48px] mt-[10%] bg-[#B88E2F] text-[#FFFFFF]  font-semibold text-base">Explore More</button>
                       </div>
-                      <div className="flex  ">
+                      <div className="flex">
                           <div className="flex mt-[2%]">
                             <Image src="/r1.png" alt="room1" width={421} height={582} className="w-[421px] ml-[7%] h-[582px] mt-[2%] mb-[1%]" />
                              <Image src="/Content.png" alt="content" width={217} height={130} className="w-[217px] h-[130px] mt-[87%] ml-[-75%]" /> 
@@ -66,7 +69,7 @@ export default function Home() {
                       </div>
                       
                     </div>
-                        <div className="w-[1650px] h-[1000px] ml-[-196px] mt-[7%]  ">
+                        <div className="w-full h-[1000px] ml-[-5%] mt-[1%]  ">
                           <p className="w-[230px] h-[30px] font-semibold text-xl text-[#616161] ml-[50%]">Share your setup with</p>
                           <h2 className="w-[356px] h-[48px] font-bold text-5xl text-[#3A3A3A] ml-[45%]">#FuniroFurniture</h2>
                             <div>

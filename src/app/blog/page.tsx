@@ -3,8 +3,9 @@ import Image from "next/image"
 export default function Blog(){
   return (
     <>
-      <div className=" h[316px] w-[1440px] ">
-        <Image src="/shop1.png" alt="background-shop" width={1440} height={316} />
+      <div className=" h[316px] w-full ">
+        <Image src="/shop1.png" alt="background-shop" width={0} height={0} className="w-full h-auto"
+        sizes="100vw" />
         <Image src="/mh.png" alt="back" width={50} height={41} className="w-[50px] h-[41px] mt-[-15%] ml-[45%]" />
         <h2 className="w-[124px] h-[72px]  text-[#000000] font-medium text-5xl mt-[1%] ml-[43%]">
           Blog
@@ -13,7 +14,7 @@ export default function Blog(){
         <Image src="/arw.png" alt="arrow" height={20}  width={20} className="ml-[46%] mt-[-1.4%] ]"/>
         <h3 className="w-[41px] h-[24px]  ml-[48%] mt-[-1.3%] font-light text-base ">Blog</h3>
       </div>
-            <div className="h-[2550px] w-[1440px]  mt-[5%] flex justify-around">
+            <div className="h-[2550px] w-full  mt-[5%] flex justify-around">
         
             
                         
@@ -209,7 +210,7 @@ export default function Blog(){
                 </div>
            
       </div>
-      <div className="h-[90px] w-[1440px] flex justify-center gap-5">
+      <div className="h-[90px] w-full flex justify-center gap-5">
                  <button className="w-[60px] h-[60px] bg-[#B88E2F]">1</button>
                  <button className="w-[60px] h-[60px] bg-[#F9F1E7]">2</button>
                  <button className="w-[60px] h-[60px] bg-[#F9F1E7]">3</button>
